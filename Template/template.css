@@ -1,5 +1,9 @@
 body {
     text-align: center;
+    background-color: aliceblue;
+}
+footer{
+  background-color: rgba(231, 231, 231, 0.512);
 }
 .gradient-container {
     width: 60%; /* Adjust the width as needed */
@@ -35,3 +39,25 @@ body {
   table{
     margin: 0 auto;
   }
+
+.navbar{
+  display: flex;
+  justify-content:space-between;
+  width: 100%;
+  background-color: aliceblue;
+  padding: 1%;
+}
+/*
+Container
+*/
+.steckbrief, .Verbreitung, .Bedrohung, .imZoo, .einleitungsText{
+  width: 65%;
+  margin: 0 auto;
+  background-color: rgba(231, 231, 231, 0.512);
+  border-radius: 20pt;
+  padding: 1%;
+}
+
+.steckbrief{
+  
+}
