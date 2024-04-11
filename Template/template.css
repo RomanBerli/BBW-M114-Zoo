@@ -32,8 +32,15 @@ footer{
 
   }
 
+  .Bedrohung p{
+    color: red;
+  }
+  
   .gradient #saebelantilope{
     left: 80%;
+  }
+  .gradient #flamingo{
+    left: 40%;
   }
   
   table{
