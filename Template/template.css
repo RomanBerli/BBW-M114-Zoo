@@ -60,11 +60,17 @@ Container
 .steckbrief, .Verbreitung, .Bedrohung, .imZoo, .einleitungsText{
   width: 65%;
   margin: 0 auto;
-  background-color: rgba(231, 231, 231, 0.512);
+  background-color: white;
   border-radius: 20pt;
   padding: 1%;
 }
 
 .steckbrief{
   
+}
+
+img {
+  width: 75%;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
