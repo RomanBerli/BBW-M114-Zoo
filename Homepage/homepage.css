@@ -1,0 +1,110 @@
+html {
+    height: 100%;
+}
+
+/* General Body Styles */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Baloo Thambi 2', cursive;
+    background-color: #f0f0f0; /* Neutral background color for improved readability */
+    padding: 0;
+    background-image: url('zoo-background.jpg'); /* A modern, high-quality background image of a zoo or animals in a natural habitat */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: rgba(255,255,255,0.95); /* Light, semi-transparent background */
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.navbar a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: #555;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover, .navbar a.active {
+    color: #007bff; /* Blue color for active/hover state, adding a touch of vibrance */
+}
+
+/* Content Styles */
+.content {
+    flex: 1;
+    text-align: center;
+    padding: 50px 20px;
+    color: #333;
+}
+
+.content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #007bff; /* Using a blue color for headings for consistency with the navbar hover state */
+}
+
+.content p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        text-align: center; /* Center navbar items on smaller screens */
+    }
+    .navbar a {
+        display: block; /* Stack navbar items vertically on smaller screens */
+        margin: 10px 0;
+    }
+}
+
+/* Utility Classes */
+.text-center {
+    text-align: center;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.btn {
+    background-color: #007bff; /* Blue background for buttons */
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker blue on hover for buttons */
+}
+
+footer {
+    width: 100%;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #6c757d; /* Dark gray text */
+    padding: 20px 0;
+}
+
+footer a {
+    color: #007bff; /* Bootstrap primary blue for links */
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
