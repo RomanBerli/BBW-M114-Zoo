@@ -7,14 +7,14 @@ footer{
   background-color: rgba(0, 0, 0, 0.2)
 }
   
-  table{
-    margin: 0 auto;
-  }
+table{
+  margin: 0 auto;
+}
 
 .navbar{
   display: flex;
   justify-content:space-between;
-  width: 100%;
+  width: 95%;
   background-color: rgba(255,255,255,0.95);
   padding: 1%;
 }
@@ -22,7 +22,7 @@ footer{
 Container
 */
 .steckbrief, .Verbreitung, .Bedrohung, .imZoo, .einleitungsText{
-  width: 65%;
+  width: 80%;
   margin: 0 auto;
   background-color: white;
   border-radius: 20pt;
