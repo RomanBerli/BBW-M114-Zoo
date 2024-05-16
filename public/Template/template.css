@@ -14,9 +14,12 @@ table{
 .navbar{
   display: flex;
   justify-content:space-between;
-  width: 95%;
+  width: 100%;
   background-color: rgba(255,255,255,0.95);
-  padding: 1%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 7%;
+  padding-right: 7%;
 }
 /*
 Container
